@@ -33,5 +33,47 @@
       "All three sources unreachable from the execution environment's network policy; no jobs verified, none invented.",
       "Email skipped: no verified recipient/email connector configured and zero new jobs."
     ]
+  },
+  {
+    "run_id": "run-20261021T064749Z",
+    "timestamp": "2026-10-21T06:47:49Z",
+    "sources_checked": [
+      {
+        "source": "MyCareersFuture",
+        "url_checked": "api.mycareersfuture.gov.sg",
+        "status": "blocked",
+        "relevant_jobs": 0,
+        "error": "Sandbox proxy returned 403 on CONNECT (curl)"
+      },
+      {
+        "source": "Greenhouse",
+        "url_checked": "boards-api.greenhouse.io",
+        "status": "blocked",
+        "relevant_jobs": 0,
+        "error": "Sandbox proxy returned 403 on CONNECT (curl)"
+      },
+      {
+        "source": "Lever",
+        "url_checked": "api.lever.co",
+        "status": "blocked",
+        "relevant_jobs": 0,
+        "error": "Sandbox proxy returned 403 on CONNECT (curl)"
+      },
+      {
+        "source": "LinkedIn job alerts (Gmail)",
+        "url_checked": "gmail connector",
+        "status": "unavailable",
+        "relevant_jobs": 0,
+        "error": "No Gmail connector available in this session"
+      }
+    ],
+    "total_relevant_roles": 0,
+    "new_roles_count": 0,
+    "new_jobs": [],
+    "email_status": "skipped",
+    "errors_or_limitations": [
+      "All HTTP sources blocked by network policy; no jobs verified, none invented.",
+      "Gmail connector unavailable; email skipped (no verified recipient, zero new jobs)."
+    ]
   }
 ]
