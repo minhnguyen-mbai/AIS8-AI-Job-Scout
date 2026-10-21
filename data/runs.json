@@ -1,1 +1,37 @@
-
+[
+  {
+    "run_id": "run-20261021T063352Z",
+    "timestamp": "2026-10-21T06:33:52Z",
+    "sources_checked": [
+      {
+        "source": "Greenhouse public boards",
+        "url_checked": "boards-api.greenhouse.io",
+        "status": "blocked",
+        "relevant_jobs": 0,
+        "error": "Sandbox proxy returned 403 on CONNECT (curl); WebFetch DNS ENOTFOUND"
+      },
+      {
+        "source": "Lever public boards",
+        "url_checked": "api.lever.co",
+        "status": "blocked",
+        "relevant_jobs": 0,
+        "error": "Sandbox proxy returned 403 on CONNECT (curl); WebFetch DNS ENOTFOUND"
+      },
+      {
+        "source": "Official career site (Grab)",
+        "url_checked": "www.grab.careers",
+        "status": "blocked",
+        "relevant_jobs": 0,
+        "error": "WebFetch DNS ENOTFOUND; outbound access restricted"
+      }
+    ],
+    "total_relevant_roles": 0,
+    "new_roles_count": 0,
+    "new_jobs": [],
+    "email_status": "skipped",
+    "errors_or_limitations": [
+      "All three sources unreachable from the execution environment's network policy; no jobs verified, none invented.",
+      "Email skipped: no verified recipient/email connector configured and zero new jobs."
+    ]
+  }
+]
