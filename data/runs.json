@@ -88,5 +88,50 @@
       "Gmail connector not connected: no LinkedIn alerts read, no email sent or drafted; no verified recipient.",
       "Relevance judged by job title only; suitability not verified. Singapore Stripe roles 'Product Manager, Global Self-Serve Product' and 'Product Strategy & Operations APAC' and Anthropic 'Finance & Strategy, Deal Strategy - APAC' did not match AI/innovation focus by title and were excluded."
     ]
+  },
+  {
+    "run_id": "run-20261022T010900Z",
+    "timestamp": "2026-10-22T01:09:00Z",
+    "sources_checked": [
+      {
+        "source": "MyCareersFuture",
+        "url_checked": "api.mycareersfuture.gov.sg",
+        "status": "failed",
+        "relevant_jobs": 0,
+        "error": "Request timed out / HTTP 504 for all 4 search terms"
+      },
+      {
+        "source": "Greenhouse",
+        "url_checked": "boards-api.greenhouse.io (databricks, stripe, anthropic)",
+        "status": "ok",
+        "relevant_jobs": 1,
+        "error": null,
+        "note": "Databricks 897, Stripe 727, Anthropic 677 postings scanned; Singapore AI/innovation title matches only counted"
+      },
+      {
+        "source": "Lever",
+        "url_checked": "api.lever.co (palantir)",
+        "status": "ok",
+        "relevant_jobs": 0,
+        "error": null,
+        "note": "304 postings scanned; no Singapore title matches"
+      },
+      {
+        "source": "LinkedIn Job Alerts (Gmail)",
+        "url_checked": "gmail connector",
+        "status": "unavailable",
+        "relevant_jobs": 0,
+        "error": "Gmail connector not available in this session"
+      }
+    ],
+    "total_relevant_roles": 1,
+    "new_roles_count": 0,
+    "new_jobs": [],
+    "email_status": "skipped",
+    "errors_or_limitations": [
+      "MyCareersFuture API unreachable (timeout/504).",
+      "Gmail connector not available: no LinkedIn alerts read, no email sent or drafted; no verified recipient.",
+      "Relevance judged by job title only; suitability not verified. Only previously seen Databricks 'Sales Dev AI Program Manager' matched; no new roles."
+    ]
   }
 ]
