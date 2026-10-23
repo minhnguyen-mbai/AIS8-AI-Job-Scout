@@ -88,5 +88,520 @@
       "Gmail connector not connected: no LinkedIn alerts read, no email sent or drafted; no verified recipient.",
       "Relevance judged by job title only; suitability not verified. Singapore Stripe roles 'Product Manager, Global Self-Serve Product' and 'Product Strategy & Operations APAC' and Anthropic 'Finance & Strategy, Deal Strategy - APAC' did not match AI/innovation focus by title and were excluded."
     ]
+  },
+  {
+    "run_id": "run-20261023T010501Z",
+    "timestamp": "2026-10-23T01:05:01Z",
+    "sources_checked": [
+      {
+        "source": "MyCareersFuture",
+        "url_checked": "api.mycareersfuture.gov.sg/v2/jobs (artificial intelligence, machine learning, generative AI, innovation; 2 pages x 100 each)",
+        "status": "ok",
+        "relevant_jobs": 50,
+        "error": null,
+        "note": "703 unique postings scanned; title-keyword filter plus manual exclusion of clearly non-business/technical roles"
+      },
+      {
+        "source": "Greenhouse",
+        "url_checked": "boards-api.greenhouse.io (databricks, stripe, anthropic)",
+        "status": "ok",
+        "relevant_jobs": 3,
+        "error": null,
+        "note": "Singapore title matches: Databricks 1, Stripe 2 (Stripe roles are weak title matches: product/strategy, not AI-specific); Anthropic 0 relevant"
+      },
+      {
+        "source": "Lever",
+        "url_checked": "api.lever.co (palantir)",
+        "status": "ok",
+        "relevant_jobs": 0,
+        "error": null,
+        "note": "307 postings scanned; Singapore postings were not relevant by title"
+      },
+      {
+        "source": "LinkedIn Job Alerts (Gmail)",
+        "url_checked": "gmail connector",
+        "status": "unavailable",
+        "relevant_jobs": 0,
+        "error": "Gmail connector not connected in this session"
+      }
+    ],
+    "total_relevant_roles": 53,
+    "new_roles_count": 52,
+    "new_jobs": [
+      {
+        "title": "Generative AI & 3D Innovation Specialist",
+        "company": "NEXBRIDGE RECRUITMENT PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/generative-ai-3d-innovation-specialist-nexbridge-recruitment-b1760d325c454b19d74b3e6463427ecf",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "ARTIFICIAL INTELLIGENCE MANAGER",
+        "company": "FENG BUILDER PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/engineering/artificial-intelligence-manager-feng-builder-5e1908d555ab80541b3bd519b9f9e559",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Director, Enterprise Data & AI Consulting",
+        "company": "CAPGEMINI SINGAPORE  PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/director-enterprise-data-ai-consulting-capgemini-singapore-337214e3a37eb048323557dfc04cc62a",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Product Manager - AI Solution",
+        "company": "L'OREAL SINGAPORE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/product-manager-ai-solution-loreal-singapore-2db3ef16e449b631779c2abe54c28752",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Head of Transformation \u2013 ISAP",
+        "company": "CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/head-transformation-%E2%80%93-isap-credit-agricole-corporate-investment-bank-0cdb6e5cd3da46364157daf665bd67d8",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Head of Artificial Intelligence (AI)",
+        "company": "CHARIOTS CAPITAL PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/head-artificial-intelligence-chariots-capital-9fb73f8fefd596a7d14c6bfcffdcab9e",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Artificial Intelligence Governance Product Lead (AI Product Lead)",
+        "company": "UST GLOBAL (SINGAPORE) PTE. LIMITED",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/artificial-intelligence-governance-product-lead-ust-global-2bf3af945c6d58f4d290dd4a92f41812",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Head of AI",
+        "company": "CYGNIFY PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/head-ai-cygnify-3f50fab6b509114eac175ffc92f9717e",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Senior/Staff AI Product Owner, SMAI",
+        "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/engineering/seniorstaff-ai-product-owner-smai-micron-semiconductor-asia-operations-14d289f06a3a0f87f0f8cb604370d251",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "AI Lead",
+        "company": "MAKER LAB PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/advertising/ai-lead-maker-lab-1a11a4123e6bd945ae016847e4758adf",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Principal Product Owner , SMART MFG & AI",
+        "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/engineering/principal-product-owner-smart-mfg-ai-micron-semiconductor-asia-operations-9200201bc5efca7f507a2d04b6f0194c",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "AI Team Lead",
+        "company": "ALLEN & GLEDHILL LLP",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-team-lead-allen-gledhill-d227cdb491df4211b1a6448d16f92d7f",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Programme Manager (AI Transformation)",
+        "company": "UNITED OVERSEAS INSURANCE LIMITED",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/programme-manager-united-overseas-insurance-2fd05d5d5f9441333e6026ba37cf5a24",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Associate, Digital Transformation (Chatbot) Specialist, Group Ops Capability Centre (GOCC), Group Operations (WD88943)",
+        "company": "DBS BANK LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/associate-digital-transformation-specialist-group-ops-capability-centre-group-operations-dbs-bank-7083437d3cf6f81889d0f8a8bf536b30",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "AI Product Manager",
+        "company": "BITDEER AI PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/others/ai-product-manager-bitdeer-ai-719e99082fd6116c527297d336e5a446",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Business Partner \u2013 Data & AI",
+        "company": "ASIA PACIFIC BREWERIES (SINGAPORE) PTE LTD",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/business-partner-%E2%80%93-data-ai-asia-pacific-breweries-fd4528bfeb348515c17b7809bef13840",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Business Partner \u2013 Data & AI",
+        "company": "ASIA PACIFIC BREWERIES (SINGAPORE) PTE LTD",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/business-partner-%E2%80%93-data-ai-asia-pacific-breweries-0022e6038b6ca8ba630fbd98455a2d85",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "STAFF AI PRODUCT OWNER, AT (Assembly & Test) COST",
+        "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/engineering/staff-ai-product-owner-cost-micron-semiconductor-asia-operations-a9490f39f207a97fa47f9cbb60f73d0a",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Head, GCFO AI Lead(Singapore, India)",
+        "company": "STANDARD CHARTERED BANK",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/head-gcfo-ai-lead-standard-chartered-bank-c35796bfdcdacacd994c7b6b09cf2659",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Junior-Mid AI Analyst",
+        "company": "FLINTEX CONSULTING PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/junior-mid-ai-analyst-flintex-consulting-3773d3a4431f883a449669757a0fa5ac",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "AI Analyst",
+        "company": "RECRUIT EXPRESS PTE LTD",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-analyst-recruit-express-3c5f897d0c8be13b1356a6e69d7fdc1c",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Senior / Manager, Enablement (AI Adoption & Enablement)",
+        "company": "HYPERSCAL SOLUTIONS PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/general-management/senior-manager-enablement-mediacorp-e7af4f73ef43347c1a13a123c13e917b",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "AI Solutions Senior Manager",
+        "company": "COACH OPERATIONS SINGAPORE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-solutions-senior-manager-coach-operations-singapore-c3e21f39943ea67c4ecc9e86986fef67",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "AI Product Manager \u2013 Agentic Managed Services",
+        "company": "TEKISHUB CONSULTING SERVICES PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-product-manager-%E2%80%93-agentic-managed-services-tekishub-consulting-services-9fd698753d02a0cc8ce76dc4e1ea9732",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Client Account Lead - Products Industry & AI Transformation (CL7)",
+        "company": "ACCENTURE PTE LTD",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/client-account-lead-products-industry-ai-transformation-accenture-dec62f41bbedcdf994359e80cbd4d7f7",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "T&T Manager \u2013 AI & Data Transformation",
+        "company": "DELOITTE SINGAPORE T&T PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/tt-manager-%E2%80%93-ai-data-transformation-deloitte-singapore-tt-c648a53ba3049b835fbdf4590d5553e7",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "AI Transformation Specialist",
+        "company": "TEMUS PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-transformation-specialist-temus-323637783be38b6d7c2883df60b5ed9f",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Client Account Lead - Products Industry & AI Transformation (CL6)",
+        "company": "ACCENTURE PTE LTD",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/client-account-lead-products-industry-ai-transformation-accenture-333688eeea34671903128e650e3022df",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Generative AI (GenAI) Lead",
+        "company": "CAPGEMINI SINGAPORE  PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/generative-ai-lead-capgemini-singapore-33da64f20ce84ebc8e66bf0176f7a312",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Senior Outbound Product Manager, Generative AI - Singapore",
+        "company": "GOOGLE ASIA PACIFIC PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-outbound-product-manager-generative-ai-singapore-google-asia-pacific-b27e4984f35ead08fc03b1a3415a70b9",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Director, AI Consulting",
+        "company": "PRAXIS INTELLIGENCE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/director-ai-consulting-praxis-intelligence-19f80eb6432070d5a736257419ca69be",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Lead Consultant (AI & UX)",
+        "company": "BASIL TECHNOLOGIES PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/lead-consultant-basil-technologies-2f025db4afc073a8b0351d1957686f62",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "genAI Transformation Lead",
+        "company": "FNDR HEADHUNTING PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/advertising/genai-transformation-lead-fndr-headhunting-3f4c995f71c18a1e64201d23ae4efc59",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Director Gen AI Lead Singapore",
+        "company": "CAPGEMINI SINGAPORE  PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/director-gen-ai-lead-singapore-capgemini-singapore-a32764dc35845c6452c3bad2f2b663ae",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Senior Consultant- AI Governance",
+        "company": "SIA PARTNERS SINGAPORE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/senior-consultant-ai-governance-sia-partners-singapore-fa460883b3a9850f99c467f8a1841978",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Regional AI & Data Project Manager (Japanese Speaking)",
+        "company": "ABEAM CONSULTING (SINGAPORE) PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/regional-ai-data-project-manager-abeam-consulting-e63bd25d5237ea0d2922a1812863e9da",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Regional AI & Data Project Manager (Japanese Speaking)",
+        "company": "ABEAM CONSULTING (SINGAPORE) PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/regional-ai-data-project-manager-abeam-consulting-1bc596c4a64e9f98e092e0a4fedacc44",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Regional AI & Data Project Manager (Japanese Speaking)",
+        "company": "ABEAM CONSULTING (SINGAPORE) PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/regional-ai-data-project-manager-abeam-consulting-44b21a64b3361bbad4eec3af40f43b89",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Head of AI Transformation and Delivery",
+        "company": "BLAZECORP CONSULTING SERVICES PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/head-ai-transformation-delivery-blazecorp-consulting-services-6b2269031e31f3899d4561ade3b2b82f",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Head of AI Transformation and Delivery",
+        "company": "BLAZECORP PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/head-ai-transformation-delivery-blazecorp-b9416ed93054a26dd06aba9daf2e31ef",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "STAFF PRODUCT OWNER, Cost Solutions, Smart Manufacturing & AI",
+        "company": "MICRON SEMICONDUCTOR ASIA OPERATIONS PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/engineering/staff-product-owner-cost-solutions-smart-manufacturing-ai-micron-semiconductor-asia-operations-3d3c2f119264c219e9fe96d34deb2d26",
+        "classification": "AI",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Senior Innovation Manager/ Innovation Manager",
+        "company": "TECHX VENTURES PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/others/senior-innovation-manager-innovation-manager-techx-ventures-134a9cd8e62655ecc9121a6485bf7f82",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Senior / Assistant Manager, Innovation & Transformation #HDC1",
+        "company": "RECRUIT EXPRESS PTE LTD",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/healthcare/senior-assistant-manager-innovation-transformation-hdc1-recruit-express-d085a517860a351a0b13b54242f088d6",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "IT Innovation Manager",
+        "company": "ANGUSKNIGHT SINGAPORE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/innovation-manager-angusknight-singapore-47198a476fd5d0e449d15b267ff90900",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Innovation Lead",
+        "company": "HYDRAX DIGITAL ASSETS PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/engineering/innovation-lead-hydrax-digital-assets-667109aa931134876743b19627762ed3",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Senior Executive (AI Solutions & Innovation), Registries Cluster (3-year contract)",
+        "company": "INTELLECTUAL PROPERTY OFFICE OF SINGAPORE",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/public/senior-executive-registries-cluster-intellectual-property-office-singapore-cf933c22a38ea68d2a0482ee2cf6931f",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Innovation and Business Development Manager (R&D)",
+        "company": "HAIER SINGAPORE INVESTMENT HOLDING PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/sciences/innovation-business-development-manager-haier-singapore-investment-holding-fae37c72194a4a02a1e8e7547e9f1647",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Business Development & Innovation Associate",
+        "company": "EVOLVX PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/business-development-innovation-associate-evolvx-052b3e450eebb45d77aa38a27eca2825",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Manager, IT & Innovation",
+        "company": "MUSLIMIN TRUST FUND ASSOCIATION",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/manager-innovation-muslimin-trust-fund-association-9f32784a3ef9080ee0b4d3dbb93d1973",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Technical Product Lead (Digital Capability & Innovation Department - Digital Solutions)",
+        "company": "Fei Yue Community Services",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/social-services/technical-product-lead-fei-yue-community-services-e5968a33079931020dbaebc597a65b65",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Product Strategy & Operations APAC",
+        "company": "Stripe",
+        "location": "Singapore",
+        "source": "Greenhouse",
+        "url": "https://stripe.com/jobs/search?gh_jid=8081423",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      },
+      {
+        "title": "Product Manager, Global Self-Serve Product",
+        "company": "Stripe",
+        "location": "Singapore",
+        "source": "Greenhouse",
+        "url": "https://stripe.com/jobs/search?gh_jid=8267105",
+        "classification": "Innovation",
+        "observed_at": "2026-10-23T01:05:01Z"
+      }
+    ],
+    "email_status": "skipped",
+    "errors_or_limitations": [
+      "Gmail connector not connected and no verified recipient: no LinkedIn alerts read, no email sent or drafted.",
+      "Relevance based on job title only; suitability for a business graduate not verified.",
+      "MyCareersFuture endpoint /v2/jobs used (earlier /v2/search path returns 404)."
+    ]
   }
 ]
