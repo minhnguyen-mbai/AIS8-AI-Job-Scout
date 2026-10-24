@@ -165,7 +165,7 @@
         "observed_at": "2026-10-23T01:05:01Z"
       },
       {
-        "title": "Head of Transformation \u2013 ISAP",
+        "title": "Head of Transformation – ISAP",
         "company": "CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK",
         "location": "Singapore",
         "source": "MyCareersFuture",
@@ -264,7 +264,7 @@
         "observed_at": "2026-10-23T01:05:01Z"
       },
       {
-        "title": "Business Partner \u2013 Data & AI",
+        "title": "Business Partner – Data & AI",
         "company": "ASIA PACIFIC BREWERIES (SINGAPORE) PTE LTD",
         "location": "Singapore",
         "source": "MyCareersFuture",
@@ -273,7 +273,7 @@
         "observed_at": "2026-10-23T01:05:01Z"
       },
       {
-        "title": "Business Partner \u2013 Data & AI",
+        "title": "Business Partner – Data & AI",
         "company": "ASIA PACIFIC BREWERIES (SINGAPORE) PTE LTD",
         "location": "Singapore",
         "source": "MyCareersFuture",
@@ -336,7 +336,7 @@
         "observed_at": "2026-10-23T01:05:01Z"
       },
       {
-        "title": "AI Product Manager \u2013 Agentic Managed Services",
+        "title": "AI Product Manager – Agentic Managed Services",
         "company": "TEKISHUB CONSULTING SERVICES PTE. LTD.",
         "location": "Singapore",
         "source": "MyCareersFuture",
@@ -354,7 +354,7 @@
         "observed_at": "2026-10-23T01:05:01Z"
       },
       {
-        "title": "T&T Manager \u2013 AI & Data Transformation",
+        "title": "T&T Manager – AI & Data Transformation",
         "company": "DELOITTE SINGAPORE T&T PTE. LTD.",
         "location": "Singapore",
         "source": "MyCareersFuture",
@@ -602,6 +602,297 @@
       "Gmail connector not connected and no verified recipient: no LinkedIn alerts read, no email sent or drafted.",
       "Relevance based on job title only; suitability for a business graduate not verified.",
       "MyCareersFuture endpoint /v2/jobs used (earlier /v2/search path returns 404)."
+    ]
+  },
+  {
+    "run_id": "run-20261024T010439Z",
+    "timestamp": "2026-10-24T01:04:39Z",
+    "sources_checked": [
+      {
+        "source": "MyCareersFuture",
+        "url_checked": "api.mycareersfuture.gov.sg/v2/jobs (artificial intelligence, machine learning, generative AI, innovation; 2 pages x 100 each)",
+        "status": "ok",
+        "relevant_jobs": 74,
+        "error": null,
+        "note": "699 unique postings scanned; title-keyword filter plus manual exclusion of technical, research, trainer/academic, sales and security roles. Matching is by title only; suitability not verified."
+      },
+      {
+        "source": "Greenhouse",
+        "url_checked": "boards-api.greenhouse.io (databricks, stripe, anthropic)",
+        "status": "ok",
+        "relevant_jobs": 3,
+        "error": null,
+        "note": "Singapore title matches already recorded earlier (Databricks 1, Stripe 2); no new relevant roles. Anthropic: no relevant Singapore title"
+      },
+      {
+        "source": "Lever",
+        "url_checked": "api.lever.co (palantir)",
+        "status": "ok",
+        "relevant_jobs": 0,
+        "error": null,
+        "note": "309 postings scanned; Singapore postings not relevant by title"
+      },
+      {
+        "source": "LinkedIn Job Alerts (Gmail)",
+        "url_checked": "gmail connector",
+        "status": "unavailable",
+        "relevant_jobs": 0,
+        "error": "Gmail connector not connected in this session"
+      }
+    ],
+    "total_relevant_roles": 77,
+    "new_roles_count": 27,
+    "new_jobs": [
+      {
+        "title": "Audit Director, Artificial Intelligence",
+        "company": "STANDARD CHARTERED BANK",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/audit-director-artificial-intelligence-standard-chartered-bank-5ef3ec9f00423ed373675ba7356767b8",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Data & AI - Technology Project Manager",
+        "company": "CFGI (SINGAPORE) PRIVATE LIMITED",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/data-ai-technology-project-manager-cfgi-d3265cae780d1ef925f985d442afc36f",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Temp Executive / Senior Executive for AI Singapore (AI Talent & Ecosystem)",
+        "company": "NATIONAL UNIVERSITY OF SINGAPORE",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/events/temp-executive-senior-executive-ai-singapore-national-university-singapore-0f3969670395b72fa58c44e20f0e174c",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Management Trainee (AI Training & Consulting)",
+        "company": "HUSTLE INSTITUTE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/education-training/management-trainee-hustle-institute-cbe1854cdeb6529919a469ad077f9412",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Business Analyst",
+        "company": "WGT EHR PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/ai-business-analyst-wgt-ehr-1edc1c57d68ffb9b27201768998088aa",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "EDB-IPP Project: Advancing Domain-Specific Multimodal Large Language Models and AI Governance for Vertical Domain Applications",
+        "company": "RAKUTEN ASIA PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/edb-ipp-project-advancing-domain-specific-multimodal-large-language-models-ai-governance-vertical-domain-applications-rakuten-asia-72f2b994f8c9312f5a210d19d2c8fc92",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Specialist",
+        "company": "FLINTEX CONSULTING PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-specialist-flintex-consulting-e324bbc865b94fb4241fbe95f5ed40f9",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Specialist",
+        "company": "FLINTEX CONSULTING PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-specialist-flintex-consulting-192a51d76fdda7fbfff81cfc10205c83",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Director - APAC",
+        "company": "WILLIS TOWERS WATSON CONSULTING (SINGAPORE) PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/ai-director-apac-willis-towers-watson-consulting-82bdc1bd3456b02a3481e72125b14264",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Specialist - Enterprise Decision Management",
+        "company": "CAPCO CONSULTING SINGAPORE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/ai-specialist-enterprise-decision-management-capco-consulting-singapore-fbf87ef04597059bfc2408e950ffb3b1",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Prompt & Training Specialist",
+        "company": "ABSOLUTE KINETICS CONSULTANCY PTE LTD",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-prompt-training-specialist-absolute-kinetics-consultancy-1ca86987f33f5eff0dbef4fb79ad4fde",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Officer (Insurance) [CCP for ICT Professionals (Data & AI)]",
+        "company": "SCIENTE INTERNATIONAL PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-officer-ccp-ict-professionals-sciente-international-8ae7d4fe0998d94bdcb730387b8872b6",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Officer (Insurance)",
+        "company": "SCIENTE INTERNATIONAL PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/ai-officer-sciente-international-d789ad7489035fdc1b3e4b73d6804e41",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Senior Technical Lead – AI & Digital Transformation",
+        "company": "MEGAMIND CONSULTING PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/senior-technical-lead-%E2%80%93-ai-digital-transformation-megamind-consulting-0dece485792b423eae75347a9a9ff6bc",
+        "classification": "AI & Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "APAC Data & AI Compliance and Operational Risk Management – Vice President",
+        "company": "JPMORGAN CHASE BANK, N.A.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/banking-finance/apac-data-ai-compliance-operational-risk-management-%E2%80%93-vice-president-jpmorgan-chase-bank-na-2bd0333d8ac3cf33b040595bbf30452a",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Project Director, Process Innovation",
+        "company": "HYUNDAI MOTOR GROUP INNOVATION CENTER IN SINGAPORE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/project-director-process-innovation-hyundai-motor-group-innovation-center-singapore-ef43468f95991b89524e998761aedc76",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Innovation Catalyst (Matter)",
+        "company": "NATIONAL UNIVERSITY OF SINGAPORE",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/others/innovation-catalyst-national-university-singapore-d412e3345d894883d68443380bb5a89c",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Innovation Catalyst (Logic)",
+        "company": "NATIONAL UNIVERSITY OF SINGAPORE",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/others/innovation-catalyst-national-university-singapore-cebb58d54cf9ad34445f003935c8cdf3",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Director of Innovation",
+        "company": "NORTH LONDON COLLEGIATE SCHOOL (SINGAPORE) PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/education-training/director-innovation-north-london-collegiate-school-13f723ea9d118130473f90eeb18fcafb",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Asia Process Innovation Specialist",
+        "company": "LX PANTOS SINGAPORE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/logistics/asia-process-innovation-specialist-lx-pantos-singapore-f61963942200a62b72e30f50ee3fe1b3",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Legal Innovation Technologist",
+        "company": "WONGPARTNERSHIP LLP",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/legal/legal-innovation-technologist-wongpartnership-27cfabd41dd3a374876c556fe54c7ecd",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Technology & Innovation Executive",
+        "company": "SCIENTEC CONSULTING PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/technology-innovation-executive-scientec-consulting-b325f10c6d6e0010043c3fc0bd738187",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Digital Innovation Executive",
+        "company": "SCIENTEC CONSULTING PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/digital-innovation-executive-scientec-consulting-05ce5f739e4e2df07e845ce4801e9fdf",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Innovation and Technology Specialist",
+        "company": "YOKOGAWA ENGINEERING ASIA PTE LTD",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/sciences/innovation-technology-specialist-yokogawa-engineering-asia-2259858bc3a3e6adc7576f0c5d9d3315",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "AI Implementor (Operations)",
+        "company": "GLOBAL INNOVATION EDUCATION GROUP LLP",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/admin/ai-implementor-global-innovation-education-group-8928e85eb6958d9328d59c1c48c223e0",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Senior Manager, Digital Transformation",
+        "company": "AMBITION GROUP SINGAPORE PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/consulting/senior-manager-digital-transformation-ambition-group-singapore-46eebf35d51947360fca02613cfbc249",
+        "classification": "Innovation",
+        "observed_at": "2026-10-24T01:04:39Z"
+      },
+      {
+        "title": "Director, IT - Data & AI Services",
+        "company": "RESORTS WORLD AT SENTOSA PTE. LTD.",
+        "location": "Singapore",
+        "source": "MyCareersFuture",
+        "url": "https://www.mycareersfuture.gov.sg/job/information-technology/director-data-ai-services-resorts-world-sentosa-ebecf41782baccd83bb940c159b660bf",
+        "classification": "AI",
+        "observed_at": "2026-10-24T01:04:39Z"
+      }
+    ],
+    "email_status": "skipped",
+    "errors_or_limitations": [
+      "Gmail connector unavailable and no verified recipient configured: email skipped, no draft created.",
+      "LinkedIn alerts could not be read.",
+      "Relevance is by job title only; no skills/salary/qualification suitability verified.",
+      "Several MCF titles surfaced now that were excluded or unseen in the prior run (manual title review), so the new count is larger than organic posting growth."
     ]
   }
 ]
